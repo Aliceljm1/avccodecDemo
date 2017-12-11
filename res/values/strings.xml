@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, AvccodecDemoActivity!</string>
+    <string name="app_name">avccodecDemo</string>
+
+    <string name="sddir">/sdcard/avccodecDemo</string>
+    
+    <string name="enc_tab_indicator">Encode</string>
+    <string name="dec_tab_indicator">decode</string>
+    <string name="loop_tab_indicator">loop</string>
+    
+    <string name="asset_yuv_file">test.yuv</string>
+    
+    <string name="enc_yuv_promote">YUV in-put file:&#160;</string>
+    <string name="enc_yuv_file">/sdcard/avccodecDemo/test.yuv</string>
+    <string name="enc_avc_promote">AVC output file:</string>
+    <string name="enc_avc_file">/sdcard/avccodecDemo/out.avc</string>
+    <string name="encode_button">encode</string>
+    <string name="encode_stop_button">stop</string>
+    <string name="dec_avc_promote">AVC in-put file:&#160;</string>
+    <string name="dec_avc_file">/sdcard/avccodecDemo/out.avc</string>
+    <string name="dec_yuv_promote">YUV output file:</string>
+    <string name="dec_yuv_file">/sdcard/avccodecDemo/out.yuv</string>
+    <string name="decode_button">decode</string>
+    <string name="decode_stop_button">stop</string>    
+    <string name="loop_start_button">start</string>
+    <string name="loop_stop_button">stop</string>
+    <string name="loop_avc_promote">AVC:</string>
+    <string name="loop_avc_file">/sdcard/avccodecDemo/capture.avc</string>
+    <string name="loop_report_button">report</string>
+    
+    
+    <string name="gallery_start_avccodecDemo">Start avccodec demo separately</string>
+    <string name="gallery_start_loop">Loop</string>
+    <string name="gallery_list_avc">Play</string>
+    <string name="gallery_avc_rec">Recorder</string>
+    
+    <string name="AvcRec_start_button">start</string>
+    <string name="AvcRec_stop_button">stop</string>
+    
+</resources>

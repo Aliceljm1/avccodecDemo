@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout
+	    android:layout_width="0px"
+		android:layout_height="fill_parent"
+		android:layout_weight="88"	    
+		android:layout_gravity="center_horizontal"
+		>
+		<LinearLayout 		
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:orientation="vertical"
+		    android:layout_gravity="center_horizontal"
+		 >
+			<yzriver.avc.avccodec.VideoCameraView
+			    android:orientation="horizontal"
+			    android:layout_width="fill_parent"
+				android:layout_height="0px"
+				android:layout_weight="88"		     
+		    	android:id="@+id/lsurfaceViewAvcRec"				    
+			/>
+			<TextView
+				android:orientation="horizontal"
+			    android:layout_width="fill_parent"
+				android:layout_height="0px"
+				android:layout_weight="12"		     	
+				android:id="@+id/AvcRecFramerate"
+			 />
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout
+	  	android:orientation="vertical"
+		android:layout_width="0px"
+		android:layout_height="fill_parent"
+		android:layout_weight="12">														
+	    <Button android:text="@string/AvcRec_start_button" 
+		    android:layout_width="fill_parent" 
+		    android:layout_height="0px"
+		    android:layout_weight="33"			     
+		    android:id="@+id/AvcRec_start_button">
+	    </Button>
+	    <Button android:text="@string/AvcRec_stop_button" 
+		    android:layout_width="fill_parent" 
+		    android:layout_height="0px"
+		    android:layout_weight="33"
+		    android:id="@+id/AvcRec_stop_button">
+	    </Button>
+	</LinearLayout>
+</LinearLayout>	
